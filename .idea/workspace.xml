@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74fe8907-12db-482c-a0d2-7fb70cf4ed5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/single.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/img_sprite.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html" afterDir="false" />
     </list>
@@ -39,7 +36,7 @@
           <entry key="jpg" value="7" />
           <entry key="js" value="4" />
           <entry key="md" value="3" />
-          <entry key="png" value="5" />
+          <entry key="png" value="8" />
           <entry key="properties" value="1" />
           <entry key="xml" value="4" />
         </counts>
@@ -49,7 +46,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="12" />
+          <entry key="Image" value="15" />
           <entry key="JAVA" value="3" />
           <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="3" />
@@ -59,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="154" />
+          <entry key="html" value="171" />
           <entry key="java" value="14" />
           <entry key="js" value="20" />
           <entry key="xml" value="9" />
@@ -67,7 +64,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="154" />
+          <entry key="HTML" value="171" />
           <entry key="JAVA" value="14" />
           <entry key="JavaScript" value="20" />
           <entry key="XML" value="9" />
@@ -89,15 +86,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="189">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
-                <element signature="e#3513#3519#0" expanded="true" />
-                <element signature="e#3519#3525#0" expanded="true" />
-                <element signature="e#3605#3611#0" expanded="true" />
+                <element signature="e#8198#8204#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/search.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="54" column="93" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="93" />
+            <state relative-caret-position="623">
+              <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -126,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="135">
+              <caret line="911" selection-start-line="911" selection-end-line="911" />
             </state>
           </provider>
         </entry>
@@ -169,8 +169,8 @@
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/html/index.html" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/configuration/MyConfig.java" />
         <option value="$PROJECT_DIR$/FilmIntegration/pom.xml" />
-        <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/single.js" />
+        <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/css/style.css" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html" />
       </list>
@@ -320,7 +320,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558069592219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558070764752" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -372,12 +372,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557972242458</updated>
       <workItem from="1557972245383" duration="1160000" />
-      <workItem from="1557994957647" duration="6004000" />
+      <workItem from="1557994957647" duration="7082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7164000" />
+    <option name="totallyTimeSpent" value="8242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -461,9 +461,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#3513#3519#0" expanded="true" />
-            <element signature="e#3519#3525#0" expanded="true" />
-            <element signature="e#3605#3611#0" expanded="true" />
+            <element signature="e#8198#8204#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,18 +534,6 @@
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/pic2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="e#3513#3519#0" expanded="true" />
-            <element signature="e#3519#3525#0" expanded="true" />
-            <element signature="e#3605#3611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -564,20 +550,39 @@
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/img_sprite.png">
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/img-sprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/f_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/search.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="135">
+          <caret line="911" selection-start-line="911" selection-end-line="911" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#8198#8204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="54" column="93" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="93" />
+        <state relative-caret-position="623">
+          <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
         </state>
       </provider>
     </entry>

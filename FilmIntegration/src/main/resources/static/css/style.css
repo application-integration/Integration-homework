@@ -909,14 +909,7 @@ p.movie__option a{
 	z-index: 100;
 	margin-top:-2em;
 }
-.nbs-flexisel-nav-left {
-	left: 0px;
-	background: url(../images/img-sprite.png) no-repeat -15px -113px;
-}
-.nbs-flexisel-nav-right {
-	right: 0px;
-	background: url(../images/img-sprite.png) no-repeat -76px -113px;
-}
+
 h1.recent {
 padding: 0 15px;
 margin: 1em 0;
