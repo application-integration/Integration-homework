@@ -52,11 +52,7 @@ border-top-right-radius: 3px;
 	margin: 0px 4% 0px 0;
 	display:inline-block;
 }
-.nav li a {
-	height:30px;
-	width:30px;
-	display: block;
-}
+
 .nav li a:hover {
 	zoom: 1;
 	filter: alpha(opacity=50);
@@ -142,24 +138,7 @@ border-top-right-radius: 3px;
 	transform: translateY(10px);
 }
 /*------------end social simptip----------------*/
-.nav li:nth-child(1) a{
-	background: url(../images/img_sprite.png) -7px -9px;
-}
-.nav li:nth-child(2) a{
-	background: url(../images/img_sprite.png) -49px -8px;
-}
-.nav li:nth-child(3) a{
-	background: url(../images/img_sprite.png) -90px -9px;
-}
-.nav li:nth-child(4) a{
-	background: url(../images/img_sprite.png) -130px -8px;
-}
-.nav li:nth-child(5) a{
-	background: url(../images/img_sprite.png) -175px -9px;
-}
-.nav li:nth-child(6) a{
-	background: url(../images/img_sprite.png) -216px -9px;
-}
+
 ul.header_right_box{
 	padding:0;
 	margin: 0 0 0 33%;
@@ -183,12 +162,7 @@ ul.header_right_box li p a:hover{
 	text-decoration:none;
 	color:#d8232a;
 }
-i.edit{
-	width: 20px;
-	height: 25px;
-	background: url(../images/img_sprite.png) -258px -9px;
-	display: inline-block;
-}
+
 ul.header_right_box li.last{
 	margin-right:0;
 }
@@ -523,13 +497,7 @@ span.m_1{
 span.m_1 img{
 	vertical-align: text-bottom;
 }
-i.icon1, i.icon2, i.icon3{
-	width: 20px;
-height: 20px;
-background: url(../images/img_sprite.png) -7px -42px;
-float: left;
-margin-right: 8%;
-}
+
 ul.list_2 li{
 	display: inline-block;
 
@@ -539,12 +507,7 @@ margin-right: 0;
 ul.list_2 li p, ul.list_4 li p{
 	float: left;
 }
-i.icon2{
-	background: url(../images/img_sprite.png) -33px -42px;
-}
-i.icon3{
-	background: url(../images/img_sprite.png) -60px -42px;
-}
+
 .content{
 	background:#edeff0;
 	padding:2em;
@@ -608,23 +571,7 @@ ul.list_3 li p, ul.list_5 li p{
 	color:#fff;
 	font-size: 1.2em;
 }
-i.icon4{
-	width: 20px;
-height: 20px;
-background: url(../images/img_sprite.png) -85px -46px;
-display: inline-block;
-position: absolute;
-top: -184px;
-right: 15px;
 
-}
-i.icon5 {
-width: 20px;
-height: 20px;
-background: url(../images/img_sprite.png) -7px -42px;
-float: left;
-margin-right:4%;
-}
 p.m_3{
 	position: absolute;
 top: -30px;
@@ -994,15 +941,7 @@ text-decoration: none;
 text-transform: uppercase;
 background: #d8232a;
 }
-.btn1 span {
-width: 20px;
-height: 20px;
-background: url(../images/img_sprite.png) -85px -49px;
-display: inline-block;
-vertical-align: middle;
-margin-right: 2%;
-text-decoration: none;
-}
+
 a.btn1:hover{
 	background:#3f444e;
 	color:#fff;
