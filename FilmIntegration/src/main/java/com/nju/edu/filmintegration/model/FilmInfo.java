@@ -1,7 +1,5 @@
 package com.nju.edu.filmintegration.model;
 
-import java.util.Date;
-
 /**
  * @Auther: peng
  * @Date: 2019/5/19 13:37

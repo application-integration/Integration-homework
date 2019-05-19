@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="74fe8907-12db-482c-a0d2-7fb70cf4ed5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/model/FilmInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/model/FilmInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫部分/MovieSpider-master/MySpider/spiders/meituan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫部分/MovieSpider-master/MySpider/spiders/meituan_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫部分/MovieSpider-master/MySpider/spiders/meituan_spider.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/FilmIntegration/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +21,13 @@
     <session id="1037438489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,7 +41,8 @@
           <entry key="md" value="3" />
           <entry key="png" value="8" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="11" />
+          <entry key="py" value="1" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,8 +54,9 @@
           <entry key="JAVA" value="10" />
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -73,20 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -95,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/single.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -103,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/controller/FilmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="243">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,23 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/utils/ReadXMLByJDom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/model/FilmInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
@@ -165,11 +150,12 @@
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/utils/ReadxmlByDom.java" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/utils/ReadxmlByJDom.java" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/xml/aa.xml" />
-        <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/model/FilmInfo.java" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/utils/ReadXMLByJDom.java" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/controller/FilmController.java" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/single.js" />
         <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html" />
+        <option value="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/xml/meituan.xml" />
+        <option value="$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/model/FilmInfo.java" />
       </list>
     </option>
   </component>
@@ -186,7 +172,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="35" />
     <option name="y" value="86" />
     <option name="width" value="1392" />
@@ -200,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,90 +196,36 @@
             <path>
               <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫部分" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫部分" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieSpider-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫部分" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieSpider-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MySpider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="filmintegration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="filmintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Integration-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Integration-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmIntegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫部分" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieSpider-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,16 +248,16 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/html" />
-      <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/xml" />
       <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/FilmIntegration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources/static/html" />
+      <recent name="$PROJECT_DIR$/FilmIntegration/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,17 +295,18 @@
       <workItem from="1557994957647" duration="7259000" />
       <workItem from="1558233689733" duration="19392000" />
       <workItem from="1558257842833" duration="131000" />
+      <workItem from="1558278490157" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27942000" />
+    <option name="totallyTimeSpent" value="28247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="86" width="1392" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25185186" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25555557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -454,9 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,21 +405,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/jquery.flexisel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/responsiveslides.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/images/pic2.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -566,17 +484,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫部分/MovieSpider-master/MySpider/spiders/meituan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫部分/MovieSpider-master/MySpider/spiders/meituan_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/xml/meituan.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="666" lean-forward="true" selection-start-line="19" selection-end-line="20" />
+        <state relative-caret-position="813">
+          <caret line="1739" column="42" selection-start-line="1739" selection-start-column="42" selection-end-line="1739" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/utils/ReadXMLByJDom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1565">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/controller/FilmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="243">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -585,45 +548,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/model/FilmInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
             <element signature="e#441#442#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/java/com/nju/edu/filmintegration/utils/ReadXMLByJDom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/js/single.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilmIntegration/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
         </state>
       </provider>
     </entry>
