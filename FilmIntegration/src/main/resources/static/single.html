@@ -15,9 +15,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- start plugins -->
+	<link href="css/bootstrap-table.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- start plugins -->
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap-table.js"></script>
+	<script type="text/javascript" src="js/bootstrap-table-locale-all.js"></script>
+	<script type="text/javascript" src="js/single.js"></script>
+
+
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="container">
@@ -30,65 +39,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	      </div>
 	   <div class="content">
       	   <div class="movie_top">
-      	         <div class="col-md-9 movie_box">
-                        <div class="grid images_3_of_2">
-                        	<div class="movie_image">
-                                <img src="images/single.jpg" class="img-responsive" alt=""/>
-                            </div>
-
-                        </div>
-                        <div class="desc1 span_3_of_2">
-                        	<p class="movie_option"><strong>Country: </strong><a href="#">established</a>, <a href="#">USA</a></p>
-                        	<p class="movie_option"><strong>Year: </strong>2014</p>
-                        	<p class="movie_option"><strong>Category: </strong><a href="#">Adventure</a>, <a href="#">Fantazy</a></p>
-                        	<p class="movie_option"><strong>Release date: </strong>December 12, 2014</p>
-                        	<p class="movie_option"><strong>Director: </strong><a href="#">suffered </a></p>
-                        	<p class="movie_option"><strong>Actors: </strong><a href="#">anything</a>, <a href="#">Lorem Ipsum</a>, <a href="#" discovered</a>, <a href="#"> Virginia</a>, <a href="#"> Virginia</a>, <a href="#">variations</a>, <a href="#">variations</a>, <a href="#">variations</a>, <a href="#"> Virginia</a> <a href="#">...</a></p>
-                            <p class="movie_option"><strong>Age restriction: </strong>13</p> 
-                         </div>
-                        <div class="clearfix"> </div>
+      	         <div class="col-md-12 movie_box">
 
 
-                      </div>
-                      </div>
-                      <div class="col-md-3">
-                      	<div class="movie_img"><div class="grid_2">
-							<img src="images/pic6.jpg" class="img-responsive" alt="">
-							<div class="caption1">
-									<ul class="list_5 list_7">
-							    		<li><i class="icon5"> </i><p>3,548</p></li>
-							    	</ul>
-							    	<i class="icon4 icon6 icon7"> </i>
-							    	<p class="m_3">Guardians of the Galaxy</p>
-							</div>
-						    </div>
-						   </div>
-                      	  <div class="grid_2 col_1">
-							<img src="images/pic2.jpg" class="img-responsive" alt="">
-							<div class="caption1">
-								<ul class="list_3 list_7">
-						    		<li><i class="icon5"> </i><p>3,548</p></li>
-						    	</ul>
-						    	<i class="icon4 icon7"> </i>
-						    	<p class="m_3">Guardians of the Galaxy</p>
-							</div>
-						   </div>
-						    <div class="grid_2 col_1">
-							<img src="images/pic9.jpg" class="img-responsive" alt="">
-							<div class="caption1">
-								<ul class="list_3 list_7">
-						    		<li><i class="icon5"> </i><p>3,548</p></li>
-						    	</ul>
-						    	<i class="icon4 icon7"> </i>
-						    	<p class="m_3">Guardians of the Galaxy</p>
-							</div>
-						   </div>
-		               </div> 
-                      <div class="clearfix"> </div>
-                  </div>
-           </div>
-    </div>
+
+					 <div class="container" style="width: 800px">
+						 <ul id="mytab" class="nav nav-tabs">
+							 <li class="active">
+								 <a href="#nuomi" data-toggle="tab">百度糯米</a>
+							 </li>
+							 <li><a href="#meituan" data-toggle="tab">美团猫眼</a></li>
+						 </ul>
+
+						 <div id="myTabContent" class="tab-content">
+							 <div class="tab-pane fade in active" id="nuomi">
+								 <table id="nuomi_table"></table>
+							 </div>
+							 <div class="tab-pane fade" id="meituan">
+								 <table id="meituan_table"></table>
+							 </div>
+						 </div>
+					 </div>
+
+
+
+					 <div class="clearfix"> </div>
+
+				 </div>
+		   </div>
+
+		   <div class="clearfix"> </div>
+	   </div>
+	</div>
 </div>
+
 <div class="container"> 
  <footer id="footer">
  	<div id="footer-3d">
