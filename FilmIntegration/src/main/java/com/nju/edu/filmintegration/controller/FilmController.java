@@ -1,12 +1,14 @@
 package com.nju.edu.filmintegration.controller;
 
 import com.nju.edu.filmintegration.model.FilmInfo;
+import com.nju.edu.filmintegration.utils.ReadJson;
 import com.nju.edu.filmintegration.utils.ReadXMLByJDom;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,5 +36,13 @@ public class FilmController {
         ReadXMLByJDom readXMLByJDom = new ReadXMLByJDom();
         result = readXMLByJDom.getMeiTuanFilmInfo(name);
         return result;
+    }
+
+    @GetMapping("/test")
+    public void test(){
+
+        ReadJson readJson = new ReadJson();
+        Object[][] objects = readJson.getObjects();
+
     }
 }
