@@ -108,7 +108,7 @@ public class FilmDataSet {
 
             if (directors.size()!=0) director=directors.get(0).getName_en();
             if (genres.size()!=0) genre=genres.get(0);
-            if(durations.size()!=0) duration=Integer.valueOf(durations.get(0).split("分钟")[0]).intValue();
+            if(durations.size()!=0) duration=Integer.valueOf(durations.get(0).split("分钟")[0].split(" ")[0]).intValue();
 
             Object[] objs = {director,genre,Integer.valueOf(year).intValue(),collect_count,(double)duration,rating.getAverage()};
             return objs;

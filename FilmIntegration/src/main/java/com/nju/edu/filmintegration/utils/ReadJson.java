@@ -51,6 +51,22 @@ public class ReadJson {
         return objects;
     }
 
+    public Object[][] getTestObjects(){
+    	String temp = this.getClass().getClassLoader().getResource("static/dataset/test.json").getPath();
+    	String readJsonData = readJsonData(temp);
+    	
+    	Gson gson = new Gson();
+        TypeToken<FilmDataSet> typeToken = new TypeToken<FilmDataSet>(){};
+        
+        FilmDataSet filmDataSet =(FilmDataSet)gson.fromJson(readJsonData, typeToken.getType());
+        
+        Object[][] objects = new Object[20][6];
+        int i=0;
+        for(int j=0;j<filmDataSet.getSubjects().size();j++,i++){
+            objects[i] = filmDataSet.getSubjects().get(j).toObjArr();
+        }
+        return objects;
+    }
 
     /**   将本地文本中的内容读取到string字符串
      * @param fileName   文件路径

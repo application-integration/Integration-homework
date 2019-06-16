@@ -90,13 +90,5 @@ $(function(){
     });
 
 
-    $.ajax({
-        type: "GET",
-        url: "/api/test",
-        contentType: 'application/x-www-form-urlencoded;charset=utf-8',
-        dataType: "json",
-        success: function(data){
-            console.log(1);
-        }
-    });
+   
 });

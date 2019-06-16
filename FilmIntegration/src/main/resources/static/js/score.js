@@ -17,7 +17,7 @@ $(function(){
 
 
     $("#score_table").bootstrapTable({
-        url:'/api/filmInfo/nuomi',         //请求后台的URL（*）
+        url:'/api/getFilmPredictInfo',         //请求后台的URL（*）
         method:'get',
         striped: true,                      //是否显示行间隔色
         cache: false,
@@ -28,14 +28,11 @@ $(function(){
         search: true,                      //是否显示表格搜索
         showToggle: true,                   //卡片、表格切换按钮
         locale: "zh-CN",
-        queryParams:{
-            name:targetMovie
-        },
         columns: [{
-            field: 'name',
+            field: 'filmName',
             title: '电影名称'
         }, {
-            field: 'score',
+            field: 'predict',
             title: '评分'
         }]
     });
